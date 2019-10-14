@@ -12,14 +12,6 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 
 
-def merge_into_map(str_list, word_map):
-	for s in str_list:
-		if s in word_map:
-			word_map[s] += 1
-		else:
-			word_map[s] = 1
-	return
-
 def print_score(score):
 	print('LogisticRegression accuracy: ',score)
 

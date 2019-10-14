@@ -9,7 +9,6 @@ import json
 import pandas as pd
 from os import listdir
 from bs4 import BeautifulSoup
-from itertools import chain
 
 # User Configuration
 POS_PATH = "training_set/positive"
